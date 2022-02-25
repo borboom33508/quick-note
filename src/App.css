@@ -1,0 +1,63 @@
+h1{
+  color: #3a4e93;
+  margin-bottom: 4vh;
+}
+.container{
+  margin-top: 8vh;
+  padding-bottom: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  padding-left: 12px;
+  max-width: 70vh;
+  min-width: 4vh;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #5c58bc;
+  margin-top: 24px;
+}
+
+button{
+  margin-left: 2vh;
+  border: none;
+  color: #e488f8;
+  background: #5c58bc;
+  
+}
+
+.card:hover{
+  background-color: #EEB8E6;
+}
+
+input{
+  font-size: 24px;
+  width: 50vh;
+  border: none;
+  border-bottom: 1px solid rebeccapurple;
+}
+
+input:focus{
+  outline: none;
+  text-align: center;
+}
+
+input:focus::placeholder{
+  color: transparent;
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+/* .dark-mode{
+  background: #3a4e93;
+} */
